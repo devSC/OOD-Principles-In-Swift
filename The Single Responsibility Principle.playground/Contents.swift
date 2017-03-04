@@ -1,8 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-/*
- ==========
+/*:
  S.O.L.I.D.
  ==========
  
@@ -11,8 +10,7 @@ import UIKit
  * [The Liskov Substitution Principle](#-the-liskov-substitution-principle)
  * [The Interface Segregation Principle](#-the-interface-segregation-principle)
  * [The Dependency Inversion Principle](#-the-dependency-inversion-principle)
- 
- */
+*/
 
 /*:
  # 🔐 The Single Responsibility Principle
