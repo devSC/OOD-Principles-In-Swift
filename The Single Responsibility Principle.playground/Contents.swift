@@ -1,5 +1,3 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
 /*:
  S.O.L.I.D.
@@ -13,9 +11,17 @@ import UIKit
 */
 
 /*:
- # 🔐 The Single Responsibility Principle
+ # 🔐 单一功能原则（Single responsibility principle）
  
- A class should have one, and only one, reason to change. ([read more](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk))
+ There should never be more than one reason for a class to change。
+ 
+ 应该有且仅有一个原因引起类的变更。简单点说，一个类，最好只负责一件事，只有一个引起它变化的原因。
+ 
+ 在OOP里面，高内聚、低耦合是软件设计追求的目标，而单一职责原则可以看做是高内聚、低耦合的引申，
+ 将职责定义为引起变化的原因，以提高内聚性，以此来减少引起变化的原因。
+ 职责过多，可能引起变化的原因就越多，这将是导致职责依赖，相互之间就产生影响，从而极大的损伤其内聚性和耦合度。
+ 单一职责通常意味着单一的功能，因此不要为类实现过多的功能点，以保证实体只有一个引起它变化的原因。
+ 
  
  Example:
  */
