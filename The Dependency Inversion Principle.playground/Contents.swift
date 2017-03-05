@@ -3,7 +3,7 @@ import UIKit
 /*:
  # 🔩 The Dependency Inversion Principle
  
- High level modules should not depend upon low level modules. Both should depend upon abstractions. Abstractions should not depend upon details. Details should depend upon abstractions。
+ High level modules should not depend upon low level modules. Both should depend upon abstractions. Abstractions should not depend upon details. Details should depend upon abstractions。 [WIKI](https://zh.wikipedia.org/wiki/%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99)
  
  高层模块不应该依赖低层模块，两者都应该依赖其抽象；抽象不应该依赖细节，细节应该依赖抽象
  
@@ -42,4 +42,8 @@ let timeMachine = DeLorean()
 
 let mastermind = EmmettBrow(timeMachine: timeMachine)
 mastermind.travelInTime(time: -2600 * 8760)
-		
+
+
+/*:
+ [MORE](http://www.cnblogs.com/landeanfen/p/5169163.html)
+*/
