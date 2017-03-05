@@ -5,7 +5,8 @@ import UIKit
 /*:
 # 👥 The Liskov Substitution Principle.
  
- Drived classes must be substitution for their base classes  ([read more](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en))
+ Drived classes must be substitution for their base classes  ([WIKI](https://zh.wikipedia.org/wiki/%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99))
+ 派生类（子类）对象能够替换其基类（超类）对象被使用
  
  Example:
 */
